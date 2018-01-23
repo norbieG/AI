@@ -1,5 +1,0 @@
-machine learning expertise
-check knowledge about classification/HMM algorithms?
-feature extraction
-ask something else according to their background
-Precision, recall, F-score
