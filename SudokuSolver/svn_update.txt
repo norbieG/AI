@@ -1,0 +1,10 @@
+[15/03/2017, 10:31:06 a.m.] Alla Münch: Hi, I still can't svn up Integration branch, I get
+svn: E175009: XML parsing failed: (413 Request Entity Too Large) for NVCCP
+and svn: E020014: Error retrieving REPORT (20014): Internal error for VL models
+How have the others solved it?
+[15/03/2017, 10:39:19 a.m.] Hector Llorens: are you using svn_exclude_....?
+[15/03/2017, 10:39:27 a.m.] Hector Llorens: or do you have all langs checkedout in svn?
+[15/03/2017, 10:40:30 a.m.] Daan Henselmans: Thanks Hector!
+[15/03/2017, 10:50:18 a.m.] Alla Münch: Hector, no, how should I use svn exclude?
+[15/03/2017, 11:01:26 a.m.] Hector Llorens: it is in the "workflow" page
+[15/03/2017, 11:01:38 a.m.] Hector Llorens: it is a script to exclude all langs except yours
